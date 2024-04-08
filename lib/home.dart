@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quizapp/quiz.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({Key? key}) : super(key: key);
@@ -25,9 +26,9 @@ class _HomepageState extends State<Homepage> {
             ),
           ),
           const SizedBox(height: 80),
-          const Text(
+          Text(
             'Learn Flutter the fun way!',
-            style: TextStyle(
+            style: GoogleFonts.lato(
               fontSize: 24,
               color: Colors.white,
             ),
